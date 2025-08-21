@@ -8,10 +8,10 @@ Prediction of Canopy Height Distribution using Optical (Sentinel 2), SAR ( C- ba
    Compute vegetation & spectral indices: NDVI, NDRI, NSMI, CIRE, SRRE, MTCI, PVI.
    Land Cover classification from Dynamic World
    
-2. Embeddings: Add Satellite embeddings (Alpha Earth).
-   The Addition of Google's Alpha Earth has greatly influenced the Model's Performace (MAE, RMSE, R square)
+3. Embeddings: Add Satellite embeddings (Alpha Earth).
+   The Addition of Google's Alpha Earth Foundation Satellite Embeddings has greatly influenced the Model's Performace (MAE, RMSE, R square)
    
-3. Radar Data Integration
+4. Radar Data Integration
    Sentinel-1 (C-band): VH & VV polarizations.
    Compute RVI, NDI, and RI indices.
    Apply focal median smoothing.
@@ -19,10 +19,10 @@ Prediction of Canopy Height Distribution using Optical (Sentinel 2), SAR ( C- ba
    ALOS PALSAR (L-band):
    Compute RI, RVI, and NDI indices.
 
-4. Terrain Variables (SRTM DEM)
-   Derive elevation, slope, and aspect from SRTM.
+5. Terrain Variables (SRTM DEM)
+   Derive elevation, slope, and aspect from NASA SRTM.
 
-5. GEDI L2A Relative Height Percentile (Training Data)
+6. GEDI L2A Relative Height Percentile (Training Data)
    Filter GEDI footprints by quality flags.
    Extract rh98 canopy height.
 
